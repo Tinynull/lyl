@@ -7,5 +7,5 @@ public interface ShoeFactory {
      *
      * @return
      */
-    Shoe getShoe();
+    factoryTest.methorfactory.Shoe getShoe();
 }

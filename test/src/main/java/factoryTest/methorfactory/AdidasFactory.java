@@ -6,7 +6,7 @@ package factoryTest.methorfactory;
  **/
 public class AdidasFactory {
 
-    public Shoe getName(){
+    public Adidas getName(){
         return new Adidas();
     }
 }

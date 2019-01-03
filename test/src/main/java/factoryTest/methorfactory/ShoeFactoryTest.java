@@ -9,7 +9,7 @@ package factoryTest.methorfactory;
 public class ShoeFactoryTest {
 
     public static void main(String[] args) {
-        NikeFactory nikeFactory = new NikeFactory();
-        System.out.println(nikeFactory.getName().getName());
+        factoryTest.methorfactory.NikeFactory nikeFactory = new factoryTest.methorfactory.NikeFactory();
+        System.out.println(nikeFactory.getName());
     }
 }
