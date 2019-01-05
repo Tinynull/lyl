@@ -8,3 +8,4 @@
         2：lazy           ->      懒汉单例模式
         3:register        ->      注册单例模式
         4:seriable        ->      序列化与反序列化保障单例
+    三：prototypeTest——>原型模式
