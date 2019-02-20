@@ -12,8 +12,13 @@ public class Test {
 
     public static void main(String[] args) {
 
-        PhoneFactory phoneFactory = new PhoneFactory();
-        System.out.println(phoneFactory.getOnePlus().getPhoneName());
+//        PhoneFactory phoneFactory = new PhoneFactory();
+//        System.out.println(phoneFactory.getOnePlus().getPhoneName());
+
+        int currentIndex = -1;
+        currentIndex = (currentIndex + 1) % 6;
+        System.out.println(currentIndex);
     }
+
 
 }
